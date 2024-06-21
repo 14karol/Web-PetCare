@@ -1,0 +1,416 @@
+
+body{
+  font-family: 'Times New Roman', Times, serif;
+  margin:0;
+}
+a{
+ text-decoration: none; 
+ color:black;
+}
+
+header{
+  display: flex;
+  justify-content: space-between;
+  height: 180px;
+  align-items: center;
+  padding: 25px;
+}
+body {
+  background-color: #A8E1E1;
+}
+header {
+  width: 1400px;
+  height: 100px;
+  background-color: #FEEAE5CC;
+  border-radius: 17px;
+  margin: 0 auto; 
+  margin-top: 40px;
+}
+.logo img{
+  height: 130px;
+  margin: auto;
+}
+nav a{
+  font-weight: 600;
+  padding-right: 10px;
+  font-size: 23px;
+  margin: 30px;
+}
+nav a:hover{
+  color: white;
+}
+.image-container{
+    position: relative;
+    display: inline-block;
+  }
+  
+.Vet{
+    display: block;
+    margin-top: 15px;
+  }
+  
+.Texto-en-imagen1{
+    position: absolute;
+    top: 30%;
+    left: 18%;
+    transform: translate(-50%, -50%);
+    color: #62A0A0;
+    font-family: "Karantina", system-ui;
+    font-weight: 300;
+    font-style: normal;
+    line-height: 15px;
+    text-align: left;
+    font-size: 80px;
+    
+  }
+  
+  .Texto-en-imagen2{
+    position: absolute;
+    top: 50%;
+    left: 18%;
+    transform: translate(-50%, -50%);
+    color:#3ECDCD;
+    font-family: "Rammetto One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 80px;
+  }
+  .Texto-en-imagen3{
+    position: absolute;
+    top: 67%;
+    left: 18%;
+    transform: translate(-50%, -50%);
+    color: #39B597;
+    font-family: "Karantina", system-ui;
+    font-weight: 300;
+    font-style: normal;
+    line-height: 15px;
+    text-align: left;
+    font-size: 80px;
+  }
+  .Texto-en-imagen4{
+    position: absolute;
+    top: 68%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+    color: #83ECD2;
+    font-family: "Karantina", system-ui;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 40px;
+    background-color: #D08DD6 ;
+    border-radius: 50px;
+    width: 400px;
+    height: 68px;
+    text-align: center;
+    line-height: 0%;
+    padding-bottom: 2%;
+
+  }
+  .Texto-en-imagen5{
+    position: absolute;
+    top: 80%;
+    left: 26%;
+    transform: translate(-50%, -50%);
+    color: #62A0A0;
+    font-size: 40px;
+  }
+
+.icons{
+    background-color: white;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+
+}
+nav {
+  display: flex;
+  justify-content: space-around; 
+}
+
+nav a {
+  margin: 0 10px; 
+}
+.icons img{
+  transition: all 300ms;
+  position: relative;
+}
+.icons img:hover{
+  transform: scale(1.15);
+}
+.Texto-img-animals1{
+  position: absolute;
+  top: 163%;
+  left: 15%;
+  transform: translate(-50%, -50%);
+  font-family: "Karantina", system-ui;
+  font-size: 35px;
+  color: white;
+}
+.Texto-img-animals2{
+  position: absolute;
+  top: 170%;
+  left: 17%;
+  transform: translate(-50%, -50%);
+  font-family: "Karantina", system-ui;
+  font-size: 35px;
+  color: white;
+  white-space: nowrap;
+}
+.Texto-img-animals3{
+  position: absolute;
+  top: 177%;
+  left: 6%;
+  transform: translate(-50%, -50%);
+  font-family: "Karantina", system-ui;
+  font-size: 35px;
+  color: white;
+}
+.Texto-img-animals4{
+  position: absolute;
+  top: 153%;
+  right: 2%;
+  font-family: "Karantina", system-ui;
+  font-size: 35px;
+  color: white;
+  text-align: right;
+}
+.Texto-img-animals5{
+  position: absolute;
+  top: 160%;
+  right: 7%;
+  font-family: "Karantina", system-ui;
+  font-size: 35px;
+  color: white;
+  text-align: right;
+}
+.Title{
+  text-align: center;
+  color: black;
+  font-size: 55px;
+  font-family: "Karantina", system-ui;
+  margin-top: 5%;
+}
+.Group1 img{
+  float: left; 
+  margin-right: 8%;
+  border-radius: 50px;
+  transition: all 300ms;
+  position: relative;
+}
+.Group1 img:hover{
+  transform: scale(1.15);
+}
+.Consulta {
+  margin-left: 5%;
+}
+.Prueba{
+  margin-left: 850px;
+}
+.Group2 img{
+  float: left;
+  border-radius: 50px; 
+  transition: all 300ms;
+  position: relative;
+}
+.Group2 img:hover{
+  transform: scale(1.15);
+}
+.Vacunacion{
+  margin-left: 5%;
+  margin-top: 500px;
+}
+.Limpieza{
+  margin-left: 850px;
+  margin-top: 500px;
+}
+.Texto-Consulta{
+  position: absolute;
+  font-family: "Karantina", system-ui;
+  font-size: 43px;
+  color: white;
+  margin-left: 7%;
+  margin-top: 5%;
+}
+.Boton1{
+  position: absolute;
+  margin-top: 13%;
+  margin-left: 9%;
+}
+.Texto-Pruebas{
+  position: absolute;
+  font-family: "Karantina", system-ui;
+  font-size: 43px;
+  color: white;
+  margin-left: 1%;
+  margin-top: 5%;
+}
+.Texto-Vacunacion{
+  position: absolute;
+  font-family: "Karantina", system-ui;
+  font-size: 43px;
+  color: white;
+  margin-left: 7%;
+  margin-top: 5%;
+}
+.Texto-Limpieza{
+  position: absolute;
+  font-family: "Karantina", system-ui;
+  font-size: 43px;
+  color: white;
+  margin-left: 5%;
+  margin-top: 5%;
+}
+.Encontrar{
+  background-color: #ceeef7;
+}
+.Title1{
+  text-align: center;
+  font-size: 55px;
+  font-family: "Karantina", system-ui;
+  margin-top: 57%;
+  padding-top: 45px;
+}
+
+.imagen-contenedor {
+  display: flex; 
+  justify-content: flex-start; 
+  padding: 20px; 
+
+}
+.imagen1{
+  overflow: hidden;
+  box-shadow: 0px 1px 10px rgba(0,0,0,0.2);
+  cursor: default;
+  transition: all 400ms ease;
+}
+.imagen1:hover{
+  box-shadow: 5px 5px 20px rgba(0,0,0,0.4);
+  transform: translateY(-3%);
+}
+.imagen2{
+  overflow: hidden;
+  box-shadow: 0px 1px 10px rgba(0,0,0,0.2);
+  cursor: default;
+  transition: all 400ms ease;
+}
+.imagen2:hover{
+  box-shadow: 5px 5px 20px rgba(0,0,0,0.4);
+  transform: translateY(-3%);
+}
+.imagen3{
+  overflow: hidden;
+  box-shadow: 0px 1px 10px rgba(0,0,0,0.2);
+  cursor: default;
+  transition: all 400ms ease;
+}
+.imagen3:hover{
+  box-shadow: 5px 5px 20px rgba(0,0,0,0.4);
+  transform: translateY(-3%);
+}
+
+.imagen2 {
+  margin-right: 7%; 
+  margin-left: 9%;
+}
+
+.imagen:last-child {
+  margin-right: 0; 
+}
+.sede1{
+  text-align: center;
+  font-family: "Karantina", system-ui;
+  font-size: 30px;
+  margin-left: 10%;
+}
+.sede2{
+  text-align: center;
+  font-family: "Karantina", system-ui;
+  font-size: 30px;
+  margin-left: 20%;
+}
+.sede3{
+  text-align: center;
+  font-family: "Karantina", system-ui;
+  font-size: 30px;
+  margin-left: 20%;
+}
+.Parrafos{
+  display: flex;
+}
+
+ul {
+  display: flex;
+  position: absolute;
+  margin-left: 78%;
+}
+
+ul li {
+  list-style: none;
+}
+
+ul li a {
+  width: 70px;
+  height: 70px;
+  background-color: black;
+  text-align: center;
+  line-height: 80px;
+  font-size: 35px;
+  margin: 0 10px;
+  display: block;
+  border-radius: 10%;
+  position: relative;
+  overflow: hidden;
+  border: 3px solid #fff;
+  z-index: 1;
+}
+
+ul li a .icon {
+  position: relative;
+  color: #ffffff;
+  transition: .5s;
+  z-index: 3;
+}
+
+ul li a:hover .icon {
+  color: white;
+  transform: rotateY(360deg);
+}
+
+ul li a:before {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #f00;
+  transition: .5s;
+  z-index: 2;
+}
+
+ul li a:hover:before {
+  top: 0;
+}
+
+ul li:nth-child(1) a:before{
+  background: #3b5999;
+}
+
+ul li:nth-child(3) a:before {
+  background: #0077b5;
+}
+
+ul li:nth-child(4) a:before {
+  background: #dd4b39;
+}
+
+.Piedepag{
+  font-family: "Truculenta", sans-serif;
+  margin-left: 43%;
+  font-size: 20px;
+}
+.Logo1{
+  float: left;
+  margin-top: 3%;
+}

@@ -1,0 +1,167 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+    margin:0;
+}
+a{
+   text-decoration: none; 
+   color:black;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    height: 180px;
+    align-items: center;
+    padding: 25px;
+}
+body {
+    background-color: #A8E1E1;
+}
+header {
+    width: 1400px;
+    height: 100px;
+    background-color: #FEEAE5CC;
+    border-radius: 17px;
+    margin: 0 auto; 
+    margin-top: 40px;
+}
+.logo img{
+    height: 130px;
+    margin: auto;
+}
+nav a{
+    font-weight: 600;
+    padding-right: 10px;
+    font-size: 23px;
+    margin: 30px;
+}
+nav a:hover{
+    color: white;
+}
+.h2{
+    text-align: center;
+    font-family: "Koulen", sans-serif;
+    font-size: 60px;
+    background-color:#82dfdf ;
+    font-weight: 300;
+    font-style: normal;
+    border-radius: 50px;
+    width: 500px;
+    height: 68px;
+    padding-bottom: 2%;
+    margin-left: 30%;
+}
+.p{
+    margin-right: 730px; 
+    position: absolute;
+    font-family: "Truculenta", sans-serif;
+    font-size: 20px;
+    margin-top: 3%;
+    margin-left: 3%;
+}
+.img{
+    float: right;
+    margin-right: 6%;
+    display: flex;
+}
+.veterinaria{
+    position: absolute;
+    top: 130% ;
+}
+.slider-box1 {
+	width: 500px;
+    height: auto;
+	margin: 100px;
+	overflow: hidden;
+    margin-top: 45%;
+    margin-left: 65%;
+}
+
+.slider-box1 ul {
+	display: flex;
+	padding: 0;
+	width: 400%;
+	animation: slide 20s infinite alternate ease-in-out;
+}
+
+.slider-box1 li {
+	width: 100%;
+	list-style: none;
+}
+.slider-box1 img {
+	width: 70%;
+    border-radius: 5%;
+}
+
+@keyframes slide {
+	0% {margin-left: 0;}
+	20% {margin-left: 0;}
+	
+	25% {margin-left: -100%;}
+	45% {margin-left: -100%;}
+	
+	50% {margin-left: -200%;}
+	70% {margin-left: -200%;}
+	
+	75% {margin-left: -300%;}
+	100% {margin-left: -300%;}
+}
+.Texto3{
+    margin-top: 20%;
+    font-family: "Karantina", system-ui;
+    font-size: 2.3em;
+}
+.Texto3 h2{
+    text-align: center;
+    color: #57b3b3;
+}
+.Texto3 p{
+    margin-left: 14%;
+}
+.slider-box2 {
+	width: 800px;
+    height: auto;
+	margin:50px auto 0;
+	overflow: hidden;
+}
+
+.slider-box2 ul {
+	display: flex;
+	padding: 0;
+	width: 500%;
+	
+	animation: slide 20s infinite alternate ease-in-out;
+}
+
+.slider-box2 li {
+	width: 50%;
+	list-style: none;
+}
+
+.slider-box2 img {
+	width: 100%;
+}
+
+@keyframes slide {
+	0% {margin-left: 0;}
+	20% {margin-left: 0;}
+	
+	25% {margin-left: -100%;}
+	45% {margin-left: -100%;}
+	
+	50% {margin-left: -200%;}
+	70% {margin-left: -200%;}
+	
+	75% {margin-left: -300%;}
+	100% {margin-left: -300%;}
+}
+.Piedepag{
+    font-family: "Truculenta", sans-serif;
+    margin-left: 43%;
+    font-size: 20px;
+  }
+  .Logo1{
+    float: left;
+    margin-top: 1%;
+    margin-left: 2%;
+  }
